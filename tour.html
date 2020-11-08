@@ -3,113 +3,51 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Kufam' rel='stylesheet'>
   <link rel="stylesheet" href="tour.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>EnVogue Tour Page</title>
 </head>
-<body>
-  
+<body>  
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <h1 class="display-4 font_white">En Vogue</h1>
-      <button>Tour</button>
-      <button>Merchandise</button>
-      <button>About</button>
-      <button>Cart</button>
-      <br>
-      <img src="/envogue2.jpg" alt="EnVogue Photo" srcset="">
+      <h class="display-4 font_white">En Vogue</h>
+      <a href="/tour.html" class="link_tabs">Tour</a>
+      <a href="/merchandise.html"  target="_blank" class="link_tabs">Merchandise</a>
+      <a href="/about.html"  target="_blank" class="link_tabs">About</a>
+      <button class="link_tabs" onclick="cart_checkout()">Cart</button>
+      <img src="/envogue2.jpg" alt="EnVogue Photo" width="300" height="200">
     </div>
   </div>
-
   <div class="container">
     <div class="row cnt_header font_header">
-      <div class="col-2">
+      <div class="col-1">
         Date
       </div>
-      <div class="col-3">
+      <div class="col-4">
         City
       </div>
-      <div class="col-4">
+      <div class="col-3">
         Venue
       </div>
-      <div class="col-1">
+      <div class="col-3">
         Price
       </div>
-
+      Qty
+    </div>
     </div>
     <hr class="my-4 ">
-    <div class="row cnt_header font_title">
-      <div class="col-2">
-        6-19-21
-      </div>
-      <div class="col-3 ">
-        St. Paul, MN
-      </div>
-      <div class="col-4">
-        Xcel Energy Center
-      </div>
-      <div class="col-1">
-        160
-      </div>
-      <div class="col-1">
-        <button> Purchase</button>
-      </div>
-    </div>
-
-    <div class="row cnt_header font_title">
-      <div class="col-2">
-        6-21-21
-      </div>
-      <div class="col-3">
-        Chicago, IL
-      </div>
-      <div class="col-4">
-        United Center
-      </div>
-      <div class="col-1">
-        150
-      </div>
-      <div class="col-1">
-        <button> Purchase</button>
-      </div>
-    </div>
-
-    <div class="row cnt_header font_title">
-      <div class="col-2">
-        6-24-21
-      </div>
-      <div class="col-3">
-        Detroit,MI
-      </div>
-      <div class="col-4">
-        Little Caesar
-      </div>
-      <div class="col-1">
-        145
-      </div>
-      <div class="col-1">
-        <button> Purchase</button>
-      </div>
-    </div>
-
-    <div class="row cnt_header font_title">
-      <div class="col-2">
-        6-25-21
-      </div>
-      <div class="col-3">
-        Pittsburg,PA
-      </div>
-      <div class="col-4">
-        PPG Parcel's Arena
-      </div>
-      <div class="col-1">
-        165
-      </div>
-      <div class="col-1">
-        <button> Purchase</button>
-      </div>
-    </div>
+        <div id="allInfo" class="row cnt_header font_title">         
+        </div>
+      </div>      
+    </div>  
   </div>
+
+  <!-- <p id="demo"></p> -->
+
+
+
   <script src="tour.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
