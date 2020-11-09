@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Get the Value of Text Input Field in JavaScript</title>
+</head>
+<body>
+    
+  <div class="col-3">
+    <input type="text" placeholder="Qty" maxlength="3" size="1" id="myInput1">
+    <button type="button" onclick="getInputValue()">submit
+    </button>
+  </div>
+  <p id="trial0"></p>
+  <p id="trial1"></p>
+  <p></p>
+    <script>
+      let ticketInfoArray = [
+  {
+    data: '6-19-21',
+    city: 'St. Paul, MN',
+    venue: 'Xcel Energy Center',
+    price:160,
+    Qty: 0,
+    cost: 0,
+  },
+  {
+    data: '6-21-21',
+    city: 'Chicago, IL',
+    venue: 'United Center',
+    price: 150,
+    Qty: 0,
+    cost: 0,
+  },
+  {
+    data: '6-24-21',
+    city: 'Detroit,MI',
+    venue: 'Little Caesar',
+    price: 145,
+    Qty: 0,
+    cost: 0,
+  },
+  {
+    data: '6-25-21',
+    city: 'Pittsburg,PA',
+    venue: 'PPG Parcel Arena',
+    price: 165,
+    Qty: 0,
+    cost: 0,
+  },  
+  ]
+  console.log(ticketInfoArray);
+  document.getElementById("trial0").innerHTML= (ticketInfoArray[1].date) ;
+  document.getElementById("trial1").innerHTML= (ticketInfoArray[1].city) ;
+ 
+  // function getInputValue(){
+  //           // Selecting the input element and get its value 
+  //           var inputVal = document.getElementById("myInput1").value;
+            
+  //           // Displaying the value
+  //           alert(inputVal);
+  //       }
+
+  for (let i = 0; i <ticketInfoArray.length; i++) {
+     
+  
+    for (let i = 0; i <ticketInfoArray; i++) {
+      console.log(ticketInfoArray[i].date);
+    document.getElementById('row1').value
+
+    };
+  };
+
+    </script>
+</body>
+</html>
