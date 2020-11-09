@@ -1,0 +1,36 @@
+
+.jumbotron {
+  background: url('Blue-background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.link_tabs {
+  font-family: Kaushan Script;
+  color: salmon;
+  background-color: rgb(31, 85, 146);
+}
+.purchase_tab {
+  background-color: mistyrose;
+}
+.font_title {
+  font-family: Kufam;
+}
+
+.font_white {
+  color: white;
+}
+
+.font_header {
+  font-family: Kaushan Script;
+  font-size: 50px;
+}
+
+.cnt_header {
+  text-align: center;
+}
+
+.font_title {
+  font-size: 30px;
+}
